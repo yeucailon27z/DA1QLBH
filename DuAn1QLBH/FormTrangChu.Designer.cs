@@ -32,6 +32,7 @@
             pictureBox2 = new PictureBox();
             mstr_Menu = new MenuStrip();
             tool_BanHang = new ToolStripMenuItem();
+            sảnPhẩmToolStripMenuItem = new ToolStripMenuItem();
             hóaĐơnToolStripMenuItem = new ToolStripMenuItem();
             nhàToolStripMenuItem = new ToolStripMenuItem();
             loạiHàngToolStripMenuItem = new ToolStripMenuItem();
@@ -71,7 +72,7 @@
             mstr_Menu.Dock = DockStyle.Left;
             mstr_Menu.Font = new Font("Times New Roman", 21.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             mstr_Menu.GripStyle = ToolStripGripStyle.Visible;
-            mstr_Menu.Items.AddRange(new ToolStripItem[] { tool_BanHang, hóaĐơnToolStripMenuItem, nhàToolStripMenuItem, loạiHàngToolStripMenuItem, giảmGiáToolStripMenuItem, kháchHàngToolStripMenuItem, thoátToolStripMenuItem });
+            mstr_Menu.Items.AddRange(new ToolStripItem[] { tool_BanHang, sảnPhẩmToolStripMenuItem, hóaĐơnToolStripMenuItem, nhàToolStripMenuItem, loạiHàngToolStripMenuItem, giảmGiáToolStripMenuItem, kháchHàngToolStripMenuItem, thoátToolStripMenuItem });
             mstr_Menu.Location = new Point(0, 0);
             mstr_Menu.Name = "mstr_Menu";
             mstr_Menu.Padding = new Padding(6, 180, 0, 2);
@@ -86,6 +87,15 @@
             tool_BanHang.Padding = new Padding(0, 30, 0, 10);
             tool_BanHang.Size = new Size(200, 77);
             tool_BanHang.Text = "Bán Hàng";
+            tool_BanHang.Click += tool_BanHang_Click;
+            // 
+            // sảnPhẩmToolStripMenuItem
+            // 
+            sảnPhẩmToolStripMenuItem.Name = "sảnPhẩmToolStripMenuItem";
+            sảnPhẩmToolStripMenuItem.Padding = new Padding(0, 30, 0, 10);
+            sảnPhẩmToolStripMenuItem.Size = new Size(200, 77);
+            sảnPhẩmToolStripMenuItem.Text = "Sản Phẩm";
+            sảnPhẩmToolStripMenuItem.Click += sảnPhẩmToolStripMenuItem_Click;
             // 
             // hóaĐơnToolStripMenuItem
             // 
@@ -93,6 +103,7 @@
             hóaĐơnToolStripMenuItem.Padding = new Padding(0, 30, 0, 10);
             hóaĐơnToolStripMenuItem.Size = new Size(200, 77);
             hóaĐơnToolStripMenuItem.Text = "Hóa Đơn";
+            hóaĐơnToolStripMenuItem.Click += hóaĐơnToolStripMenuItem_Click;
             // 
             // nhàToolStripMenuItem
             // 
@@ -100,6 +111,7 @@
             nhàToolStripMenuItem.Padding = new Padding(0, 30, 0, 10);
             nhàToolStripMenuItem.Size = new Size(200, 77);
             nhàToolStripMenuItem.Text = "Nhà Cung Cấp ";
+            nhàToolStripMenuItem.Click += nhàToolStripMenuItem_Click;
             // 
             // loạiHàngToolStripMenuItem
             // 
@@ -107,6 +119,7 @@
             loạiHàngToolStripMenuItem.Padding = new Padding(0, 30, 0, 10);
             loạiHàngToolStripMenuItem.Size = new Size(200, 77);
             loạiHàngToolStripMenuItem.Text = "Loại Hàng";
+            loạiHàngToolStripMenuItem.Click += loạiHàngToolStripMenuItem_Click;
             // 
             // giảmGiáToolStripMenuItem
             // 
@@ -114,6 +127,7 @@
             giảmGiáToolStripMenuItem.Padding = new Padding(0, 30, 0, 10);
             giảmGiáToolStripMenuItem.Size = new Size(200, 77);
             giảmGiáToolStripMenuItem.Text = "Giảm Giá";
+            giảmGiáToolStripMenuItem.Click += giảmGiáToolStripMenuItem_Click;
             // 
             // kháchHàngToolStripMenuItem
             // 
@@ -121,6 +135,7 @@
             kháchHàngToolStripMenuItem.Padding = new Padding(0, 30, 0, 10);
             kháchHàngToolStripMenuItem.Size = new Size(200, 77);
             kháchHàngToolStripMenuItem.Text = "Khách Hàng";
+            kháchHàngToolStripMenuItem.Click += kháchHàngToolStripMenuItem_Click;
             // 
             // thoátToolStripMenuItem
             // 
@@ -136,9 +151,9 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(596, 6);
             label1.Name = "label1";
-            label1.Size = new Size(356, 41);
+            label1.Size = new Size(520, 41);
             label1.TabIndex = 3;
-            label1.Text = "QUẢN LÝ CỬA HÀNG";
+            label1.Text = "QUẢN LÝ CỬA HÀNG QUẦN ÁO";
             // 
             // FormTrangChu
             // 
@@ -177,5 +192,6 @@
         private ToolStripMenuItem kháchHàngToolStripMenuItem;
         private Label label1;
         private ToolStripMenuItem thoátToolStripMenuItem;
+        private ToolStripMenuItem sảnPhẩmToolStripMenuItem;
     }
 }

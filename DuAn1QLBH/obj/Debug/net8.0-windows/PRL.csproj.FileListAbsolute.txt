@@ -25,3 +25,4 @@ C:\Users\Admin\Desktop\DuAn1\DuAn1QLBH\DuAn1QLBH\obj\Debug\net8.0-windows\PRL.ge
 C:\Users\Admin\Desktop\DuAn1\DuAn1QLBH\DuAn1QLBH\obj\Debug\net8.0-windows\ref\PRL.dll
 C:\Users\Admin\Desktop\DuAn1\DuAn1QLBH\DuAn1QLBH\obj\Debug\net8.0-windows\PRL.Properties.Resources.resources
 C:\Users\Admin\Desktop\DuAn1\DuAn1QLBH\DuAn1QLBH\obj\Debug\net8.0-windows\PRL.FormTrangChu.resources
+C:\Users\Admin\Desktop\DuAn1\DuAn1QLBH\DuAn1QLBH\obj\Debug\net8.0-windows\PRL.sourcelink.json

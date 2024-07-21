@@ -34,8 +34,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(732, 456);
+            ClientSize = new Size(732, 504);
             Name = "FormKhachHang";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormKhachHang";
             ResumeLayout(false);
         }
