@@ -255,7 +255,7 @@
             Controls.Add(pictureBox1);
             Name = "FormDangKy";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "FormDangKy";
+            Text = "Đăng Ký Tài Khoản";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();

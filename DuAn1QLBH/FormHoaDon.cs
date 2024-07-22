@@ -16,5 +16,10 @@ namespace PRL
         {
             InitializeComponent();
         }
+
+        private void FormHoaDon_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

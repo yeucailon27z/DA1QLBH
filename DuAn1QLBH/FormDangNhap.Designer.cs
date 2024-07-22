@@ -211,9 +211,10 @@
             Controls.Add(panel1);
             Controls.Add(pictureBox1);
             Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormDangNhap";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Đăng Nhập Tài Khoản";
             Load += FormDangNhap_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
